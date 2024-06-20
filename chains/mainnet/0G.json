@@ -1,0 +1,32 @@
+{
+    "chain_name": "0G",
+    "api": [
+        {
+            "address": "https://0g-ntb.t4e.xyz/rest", 
+            "provider": "NTBNodes"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://0g-ntb.t4e.xyz/rpc/", 
+            "provider": "NTBNodes"
+        },
+        {
+            "address": "https://rpc.nodejumper.io:443/0gtestnet", 
+            "provider": "NodeJumper"
+        }
+    ],
+    "sdk_version": "0.34.27",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uA0GI",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/0G.svg"
+    }],
+    "addr_prefix": "0g",
+    "theme_color": "#3FA263",
+    "logo": "https://raw.githubusercontent.com/batuoc263/t4e-explorer/master/src/assets/images/chain-logo/0G.svg"
+}

@@ -6,7 +6,6 @@ import {
   type ChainConfig,
 } from '@/stores/useDashboard';
 import ChainSummary from '@/components/ChainSummary.vue';
-import AdBanner from '@/components/ad/AdBanner.vue';
 
 import { computed, onMounted, ref } from 'vue';
 import { useBlockchain } from '@/stores';
@@ -62,12 +61,12 @@ const chainStore = useBlockchain()
         </svg>
       </div>
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
-        {{ $t('pages.title') }}
+        NTBNodes Explorer
       </h1>
     </div>
     <div class="text-center text-base">
       <p class="mb-1">
-        {{ $t('pages.slogan') }}
+        Thank to Ping.pub
       </p>
     </div>
     <div
@@ -90,8 +89,6 @@ const chainStore = useBlockchain()
         :name="chain.chainName"
       />
     </div>
-
-    <AdBanner id="home-banner-ad" unit="banner" width="970px" height="90px" />
 
     <div class="text-center text-base mt-6 text-primary">
       <h2 class="mb-6">{{ $t('pages.description') }}</h2>
